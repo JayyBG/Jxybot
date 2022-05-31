@@ -1,7 +1,6 @@
 //═══════════════════════════════════════════════════════//
 //
-//                              𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄 𝓫𝔂 𝓷𝓮𝔁𝓾𝓼𝓝𝔀
-//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
+//          ꧁༺Jxybot by Jay ༻꧂
 //
 //════════════════════════════//
 
@@ -15,40 +14,40 @@ global.APIs = {
 
 //Api Key\\
 global.APIKeys = {
-	'https://zenzapis.xyz': 'sanzychan01', //credit goes to sanzy yt, if api key expire, buy it and put it here?\\
+	'https://zenzapis.xyz': 'sanzychan01', //if api key expire, buy it and put it here?\\
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
-global.ownername = '🐦Star Boy Nexus'
-global.botname = 'Gojo-Satoru'
-global.footer = '©NexusNwInc.'
-global.ig = 'https://github.com/nexusNw'
-global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = '🐦Star Boy Nexus'
+global.owner = ['+31 6 37193432']
+global.premium = ['+31 6 37193432']
+global.ownernomer = '+31 6 37193432'
+global.ownername = '🐦 Jxyy'
+global.botname = 'Jxyy-bot'
+global.footer = '©jxyytf'
+global.ig = 'https://github.com/JayyBG'
+global.region = 'Weesp, The Netherlands'
+global.sc = 'https://github.com/JayyBG/Jxy'
+global.myweb = 'https://withkoji.com/@jxy'
+global.packname = 'Jxyysc'
+global.author = 'on Snapchat'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
+    admin: 'This feature is only available for admins!',
+    botAdmin: 'Bot must be admin first!',
+    owner: 'This feature is only available for owner!',
+    group: 'This feature can only be used in groups!',
+    private: 'This feature can only be used in private chats!',
+    bot: 'This feature can only be used by the bot',
     wait: 'Wait A minute...',
     error: 'Error! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
     global.limitawal = {
     premium: "Infinity",
-    free: 12,
+    free: 1000,
     monayawal: 1000
 }
    global.rpg = {
