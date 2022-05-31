@@ -197,16 +197,6 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
         } catch (err) {
             console.error(err)
         }
-	
-	//group target \\
-const reply = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Jxybot`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jp`),"sourceUrl": "withkoji.com/@jxy"}}}, { quoted: m})
-        }
-        
-        const replay = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Jxybot`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jg`),"sourceUrl": "withkoji.com/@jxy"}}}, { quoted: m})
-        }
-	
         //Public & Self\\
         if (!GojoMdNx.public) {
             if (!m.key.fromMe) return
