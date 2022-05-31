@@ -1448,7 +1448,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 break
             case 'tagall': {
                 if (!m.isGroup) return replay(`${mess.group}`)
-                if (!isBotAdmins) return replay(`${mess.botAdmin}`)
+                if (!isBot) return replay(`${mess.bot}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
 let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
  
